@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#B6A960 ; /* Background color for the entire page */
+}
+
+/* Style for the login forms container */
+.container {
+    background-color: #fff; /* Background color for the login forms */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the login title */
+.login_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the login button */
+button[name="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d25131;
+    color: #19c44f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Make the button text bold */
+}
+
+/* Hover effect for the login button */
+button[name="submit"]:hover {
+    background-color: #0056b3;
+    color: #fff; /* Change text color on hover */
+}
+
+/* Flexbox container for horizontal alignment */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

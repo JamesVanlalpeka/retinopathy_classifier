@@ -1,0 +1,71 @@
+/* Reset some default styles */
+
+/* Style for the login forms container */
+.container {
+    background-color: #fff; /* Background color for the login forms */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the login title */
+.login_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="password"] {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the login button */
+button, input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* Hover effect for the login button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+/* Flexbox container for horizontal alignment */
+body {
+    color: black;
+        background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+        background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+
+
